@@ -1,0 +1,40 @@
+{
+  "name": "build-utils",
+  "description": "Build utilities",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jdinwiddy/build-utils",
+  "author": {
+    "name": "Jordan Dinwiddy",
+    "email": "jordan.dinwiddy@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jdinwiddy/build-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdinwiddy/build-utils/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jdinwiddy/build-utils/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/build-utils",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "aws-sdk": "~1.7.1"
+  }
+}
